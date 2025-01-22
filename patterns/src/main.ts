@@ -1,2 +1,2 @@
-import { instance1 } from './patterns/index';
-console.log(instance1)
+import { database, server } from './patterns/singleton/index';
+console.log(database, server);
